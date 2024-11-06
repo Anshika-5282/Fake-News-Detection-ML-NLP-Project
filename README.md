@@ -14,9 +14,17 @@ The dataset contains columns such as:
 **Project Structure:**
 
 Here's a breakdown of the key steps in the notebook:
+
 **1.** **Importing Libraries**
 
-    -Libraries like numpy, pandas, re, and nltk are imported for data manipulation, regex operations, and natural language processing.
+    -Numpy
+    -Pandas
+    -re 
+    -nltk
+    -scikit-learn
+    -matplotlib
+    
+   These are imported for data manipulation, regex operations, natural language processing and modeling of data. 
 **2. Loading Dataset**
 
     -The dataset is loaded using pandas.read_csv() into a pandas DataFrame for analysis and displayed for a quick overview.
