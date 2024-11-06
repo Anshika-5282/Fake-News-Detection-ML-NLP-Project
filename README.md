@@ -15,7 +15,7 @@ The dataset contains columns such as:
 
 Here's a breakdown of the key steps in the notebook:
 
-**1.** **Importing Libraries**
+**1.** **Importing Libraries:**
 
     -Numpy
     -Pandas
@@ -25,25 +25,26 @@ Here's a breakdown of the key steps in the notebook:
     -matplotlib
     
    These are imported for data manipulation, regex operations, natural language processing and modeling of data. 
-**2. Loading Dataset**
+   
+**2. Loading Dataset:**
 
     -The dataset is loaded using pandas.read_csv() into a pandas DataFrame for analysis and displayed for a quick overview.
-**3. Exploratory Data Analysis (EDA)**
+**3. Exploratory Data Analysis (EDA):**
 
     -Various EDA techniques are applied to understand the data structure, distribution, and any underlying patterns.
-**4. Data Visualization**
+**4. Data Visualization:**
 
     -Visualize the distribution of fake vs. real news and examined the dataset's structure.
-**5. Data Preprocessing**
+**5. Data Preprocessing:**
 
     -Text preprocessing include steps such as removing punctuation, stopwords and performing stemming or lemmatization to reduce words to their base forms and to prepare the data for modeling.
-**6. Feature Engineering**
+**6. Feature Engineering:**
 
     -Used TF-IDF (Term Frequency-Inverse Document Frequency) method to convert text data into numeric features for model input.
-**7. Model Training and Evaluation**
+**7. Model Training and Evaluation:**
 
     -Several machine learning algorithms are applied, and their performance is evaluated by checking its score.
-**8. Prediction using User-defined program**
+**8. Prediction using User-defined program:**
 
     -News is checked by the input of index number entered by the user itself to see whether it is fake or real news.
 
